@@ -1,5 +1,12 @@
 {
     "require": {
-        "symfony/form": "^3.3"
+        "symfony/form": "^3.3",
+        "symfony/var-dumper": "^3.3",
+        "symfony/debug": "^3.3"
+    },
+    "autoload-dev": {
+        "files": [
+            "vendor/symfony/var-dumper/Resources/functions/dump.php"
+        ]
     }
 }
